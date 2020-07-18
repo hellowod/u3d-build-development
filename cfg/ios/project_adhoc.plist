@@ -2,17 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>compileBitcode</key>
-	<false/>
+	<!-- {app-store, ad-hoc, enterprise, development, validation} -->
 	<key>method</key>
 	<string>ad-hoc</string>
-	<key>signingStyle</key>
-	<string>automatic</string>
-	<key>stripSwiftSymbols</key>
-	<true/>
-	<key>teamID</key>
-	<string>C5HK63QQ9L</string>
-	<key>thinning</key>
-	<string>&lt;none&gt;</string>
+	<key>provisioningProfiles</key>
+    <dict>
+        <key>com.moon.test.adhoc</key>
+        <string>test</string>
+    </dict>
+	<key>compileBitcode</key>
+	<false/>
 </dict>
 </plist>
